@@ -1,0 +1,28 @@
+canvas
+{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px darkblue;}
+}
+
+#title
+{
+font-size: 65px;
+font-family: 'Neonderthaw';
+background: deeppink;
+color: white;
+}
+
+.button
+{
+    font-size: 35px;
+    background-color: darkviolet;
+    color: white;
+    font-family: 'Neonderthaw';
+}
